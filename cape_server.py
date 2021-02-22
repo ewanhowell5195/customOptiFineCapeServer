@@ -3,7 +3,12 @@ from socketserver import ThreadingMixIn
 from urllib.parse import unquote
 from mimetypes import guess_type
 from requests import get
+from sys import argv
 from os import path
+
+if len(argv) == 1 or argv[1] != "-silent":
+	from plyer import notification
+	notification.notify(title = "Cape server running", message = "The OptiFine cape server is now running", app_name = "Here is the application name")
 
 defaultCape = get(f"https://raw.githubusercontent.com/ewanhowell5195/customOptiFineCapeServer/main/default/default.png")
 
@@ -19,8 +24,8 @@ class ReqHandler(BaseHTTPRequestHandler):
 		self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
 
 	def do_GET(self):
-			decoded_path = unquote(self.path)
-			file_path = decoded_path[1:]
+		decoded_path = unquote(self.path)
+		file_path = decoded_path[1:]
 		try:
 			if path.isfile(file_path):
 				self._set_response(type=guess_type(file_path)[0])
