@@ -34,3 +34,9 @@ In the `Target` text field, add a space after the file path and add `-silent`
 # Uninstallation
 
 To uninstall this, you need to open your `hosts` file again and remove `127.0.0.1 s.optifine.net`
+
+# Tested Clients
+
+### Working
+- Vanilla Minecraft with OptiFine
+-  
