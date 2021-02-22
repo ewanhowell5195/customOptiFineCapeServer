@@ -39,4 +39,7 @@ To uninstall this, you need to open your `hosts` file again and remove `127.0.0.
 
 ### Working
 - Vanilla Minecraft with OptiFine
--  
+- Forge with OptiFine
+
+### Not Working
+- Lunar Client
