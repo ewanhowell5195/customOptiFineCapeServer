@@ -28,9 +28,14 @@ Next navigate to the folder `C:\Users\<user>\AppData\Roaming\Microsoft\Windows\S
 
 # Remove Notifications
 
-If you want to disable the notifications that show whenever you start the program, in the shortcut you just made to the file, right click it and go to `Properties`. 
-In the `Target` text field, add a space after the file path and add `-silent`
+If you want to disable the notifications that show whenever you start the program, open the `settings.json` file and change `notifications` from `true` to `false`.
+If you do not have a `settings.json` file, run the program once and it will appear.
 
 # Uninstallation
 
 To uninstall this, you need to open your `hosts` file again and remove `127.0.0.1 s.optifine.net`
+
+# Confirmed Working Versions
+
+- Optifine
+- Forge + OptiFine
