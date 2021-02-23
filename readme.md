@@ -10,7 +10,7 @@ If you want your cape added to this github repository, so that other people usin
 
 # Setup
 
-Start by downloading the program from [here](https://github.com/ewanhowell5195/customOptiFineCapeServer/releases/tag/customOptiFineCapeServer)
+Start by downloading the program from [here](https://github.com/ewanhowell5195/customOptiFineCapeServer/releases/tag/customOptiFineCapeServer1.2)
 
 To use this, you need to edit your `hosts` file. 
 
@@ -40,7 +40,7 @@ If no capes are found in a resource pack, it will load them from a folder called
 # Auto starting
 
 If you want to make this program start with Windows and run in the background, so you don't have to launch it every time you play Minecraft, start by copying the downloaded program file.
-Next navigate to the folder `C:/Users/<user>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup` , right click, and select `Paste shortcut`.
+Next navigate to the folder `C:/Users/<user>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Start-up` , right click, and select `Paste shortcut`.
 
 # Remove Notifications
 
