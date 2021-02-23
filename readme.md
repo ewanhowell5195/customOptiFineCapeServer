@@ -16,15 +16,27 @@ To use this, you need to edit your `hosts` file.
 
 Start by opening `Notepad.exe` in Administrator mode. You can do this by searching it in the windows seach bar, right clicking it, and selecting `Run as Administrator`
 
-From Notepad, go to `File->Open` and open the file `C:\Windows\System32\drivers\etc\hosts`
+From Notepad, go to `File->Open` and open the file `C:/Windows/System32/drivers/etc/hosts`
 If you cannot see the file, make sure that `All Files (*.*)` is selected in the bottom right corner.
 
 Next, add `127.0.0.1 s.optifine.net` to the bottom of the file, and save the file.
 
+# Custom Default Capes
+
+If a player does not have a cape set, they will have a default cape applied.
+In the `settings.json`, you can define a custom directory to load default capes from.
+If there are multiple textures in the default cape directory, players will be given a random one.
+Full instructions in the `settings.json` file.
+
+# Resource Pack Support
+
+If the custom default directory is set to "resource-pack", it will load the default capes from `assets/minecraft/textures/capes` of the current top loaded resource-pack.
+If no capes are found in a resource pack, it will load them from a folder called `default` located next to the program file.
+
 # Auto starting
 
 If you want to make this program start with Windows and run in the background, so you don't have to launch it every time you play Minecraft, start by copying the downloaded program file.
-Next navigate to the folder `C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` , right click, and select `Paste shortcut`.
+Next navigate to the folder `C:/Users/<user>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup` , right click, and select `Paste shortcut`.
 
 # Remove Notifications
 
