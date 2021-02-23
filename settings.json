@@ -4,7 +4,7 @@
 	"minecraftDirectory": "default",
 	//Set a directory to load custom default capes from.
 	//All textures in the folder will be loaded and selected randomly.
-	//If set to "resource-pack", it will load capes from "assets\minecraft\textures\capes" of the current top loaded resource-pack.
+	//If set to "resource-pack", it will load capes from "assets/minecraft/textures/capes" of the current top loaded resource-pack.
 	//If no capes found in a resource pack, it will load them from a folder called "default" located next to the program file.
 	//Currently only works on unzipped resource-packs
 	//Changes can take up to a minute to apply.
