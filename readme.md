@@ -21,6 +21,10 @@ If you cannot see the file, make sure that `All Files (*.*)` is selected in the 
 
 Next, add `127.0.0.1 s.optifine.net` to the bottom of the file, and save the file.
 
+Finally, run `ipconfig /flushdns` in command prompt and then you are done!
+
+Just launch the downloaded program to begin. If it looks like nothing happens when you run it, you can check in task manager to see if it is running in the background.
+
 # Custom Default Capes
 
 If a player does not have a cape set, they will have a default cape applied.
