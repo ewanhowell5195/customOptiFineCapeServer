@@ -30,7 +30,7 @@ Full instructions in the `settings.json` file.
 
 # Resource Pack Support
 
-If the custom default directory is set to "resource-pack", it will load the default capes from `assets/minecraft/textures/capes` of the current top loaded resource-pack.
+If the custom default directory is set to `resource-pack`, it will load the default capes from `assets/minecraft/textures/capes` of the current top loaded resource-pack.
 If no capes are found in a resource pack, it will load them from a folder called `default` located next to the program file.
 
 # Auto starting
