@@ -12,6 +12,9 @@
 	//Toggle showing the Windows notifications.
 	//Set to "true" or "false".
 	"notifications": "true",
+	//This is a list of default textures to use on players without a cape.
+	//The names must be existing textures from "https://github.com/ewanhowell5195/customOptiFineCapeServer/tree/main/default"
+	//Set it to be empty to disable default capes
 	"defaultCapeList": [
 		"bacon",
 		"bug_tracker",
