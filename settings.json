@@ -11,5 +11,29 @@
 	"customDefaultDirectory": "resource-pack",
 	//Toggle showing the Windows notifications.
 	//Set to "true" or "false".
-	"notifications": "true"
+	"notifications": "true",
+	"defaultCapeList": [
+		"bacon",
+		"bug_tracker",
+		"cobalt",
+		"dannyBstyle",
+		"default",
+		"founders",
+		"JulianClark",
+		"map_maker",
+		"millionth_customer",
+		"minecon_2011",
+		"minecon_2012",
+		"minecon_2013",
+		"minecon_2015",
+		"minecon_2016",
+		"mojang",
+		"mojang_classic",
+		"MrMessiah",
+		"pancape",
+		"prismarine",
+		"scrolls",
+		"translator",
+		"turtle"
+	]
 }
