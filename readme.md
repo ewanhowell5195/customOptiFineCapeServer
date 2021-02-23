@@ -3,7 +3,7 @@
 This is a program that lets you customise OptiFine capes. 
 The program first loads capes from your local `capes` folder. If no cape is found, it checks for one in this github repository. If still no cape is found, it will check for an official optifine cape. Finally, if no OptiFine cape is found, it loads a default cape file (Currently the migration cape). 
 
-To create a custom cape, create a `capes` folder next to the program file, and paste in your custom cape. The cape must also contain an Elytra texture. Make sure the cape file is named after your Minecraft username.
+To use a custom cape, create a `capes` folder next to the program file, and paste in your custom cape. The cape must also contain an Elytra texture. Make sure the cape file is named after your Minecraft username.
 
 **DISCLAIMER**, these changes are purely client side, and no one else can see them.
 If you want your cape added to this github repository, so that other people using this program can see it, then join my [Discord Server](https://discord.com/invite/pkRxtGw) and send your cape and username in the `#custom-capes` channel.
