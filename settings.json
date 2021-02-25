@@ -1,6 +1,6 @@
 {
 	//Set a custom .minecraft folder.
-	//Set to "default" to load the dafault one.
+	//Set to "default" to load the default one.
 	"minecraftDirectory": "default",
 	//Set a directory to load custom default capes from.
 	//All textures in the folder will be loaded and selected randomly.
