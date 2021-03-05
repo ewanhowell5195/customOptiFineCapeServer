@@ -38,5 +38,6 @@
 		"scrolls",
 		"translator",
 		"turtle"
-	]
+	],
+	"defaultPlayerModel": "true"
 }
