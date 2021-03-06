@@ -15,31 +15,33 @@
 	//This is a list of default textures to use on players without a cape.
 	//The names must be existing textures from "https://github.com/ewanhowell5195/customOptiFineCapeServer/tree/main/default"
 	//Set it to be empty to disable default capes
+	//Remove the "//" to enable the default capes
+	//The last enabled default capes should not have a "," at the end of the line
 	"defaultCapeList": [
-		"bacon",
-		"bug_tracker",
-		"cobalt",
-		"dannyBstyle",
-		"default",
-		"founders",
-		"JulianClark",
-		"map_maker",
-		"millionth_customer",
-		"minecon_2011",
-		"minecon_2012",
-		"minecon_2013",
-		"minecon_2015",
-		"minecon_2016",
-		"mojang",
-		"mojang_classic",
-		"MrMessiah",
-		"pancape",
-		"prismarine",
-		"scrolls",
-		"translator",
-		"turtle"
+		//"bacon",
+		//"bug_tracker",
+		//"cobalt",
+		//"dannyBstyle",
+		//"default",
+		//"founders",
+		//"JulianClark",
+		//"map_maker",
+		//"millionth_customer",
+		//"minecon_2011",
+		//"minecon_2012",
+		//"minecon_2013",
+		//"minecon_2015",
+		//"minecon_2016",
+		//"mojang",
+		//"mojang_classic",
+		//"MrMessiah",
+		//"pancape",
+		//"prismarine",
+		//"scrolls",
+		//"translator",
+		//"turtle"
 	],
 	//Load the default custom player model on players
 	//Set to "on" or "off"
-	"defaultPlayerModel": "on"
+	"defaultPlayerModel": "off"
 }

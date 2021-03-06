@@ -1,16 +1,18 @@
 # About
 
-This is a program that lets you customise OptiFine capes. 
+This is a program that lets you customise OptiFine capes and give yourself custom player models. 
 The program first loads capes from your local `capes` folder. If no cape is found, it checks for one in this github repository. If still no cape is found, it will check for an official optifine cape. Finally, if no OptiFine cape is found, it loads a default cape file (Currently the migration cape). 
 
-To use a custom cape, create a `capes` folder next to the program file, and paste in your custom cape. The cape must also contain an Elytra texture. Make sure the cape file is named after your Minecraft username.
+To use a custom cape, put your cape texture in the `capes` folder next to the program file, and rename it to match your Minecraft username. Please note that capes must also contain the elyta texture.
+
+Playermodels are loaded from the `playermodels` folder next to the program folder. See [this folder](https://github.com/ewanhowell5195/customOptiFineCapeServer/tree/main/playermodels) for examples of correct formatting.
 
 **DISCLAIMER**, these changes are purely client side, and no one else can see them.
 If you want your cape added to this github repository, so that other people using this program can see it, then join my [Discord Server](https://discord.com/invite/pkRxtGw) and send your cape and username in the `#custom-capes` channel.
 
 # Setup
 
-Start by downloading the program from [here](https://github.com/ewanhowell5195/customOptiFineCapeServer/releases/tag/customOptiFineCapeServer1.2)
+Start by downloading the program from [here](https://github.com/ewanhowell5195/customOptiFineCapeServer/releases)
 
 To use this, you need to edit your `hosts` file. 
 
@@ -35,7 +37,11 @@ Full instructions in the `settings.json` file.
 # Resource Pack Support
 
 If the custom default directory is set to `resource-pack`, it will load the default capes from `assets/minecraft/textures/capes` of the current top loaded resource-pack.
-If no capes are found in a resource pack, it will load them from a folder called `default` located next to the program file.
+If no capes are found in a resource pack, it will load them from a folder called `capes/default` located next to the program file.
+
+# Default Player Model
+
+If a player doesn't have a custom player model set, they will load the default custom player model. This is disabled by default but can be enabled in the `settings.json`. A custom default player model can be set by putting the same files as the default player model found [here](https://github.com/ewanhowell5195/customOptiFineCapeServer/tree/main/playermodels)
 
 # Auto starting
 
