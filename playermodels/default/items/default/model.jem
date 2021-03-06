@@ -1,5 +1,5 @@
 {
-	"texture": "default.png",
+	"texture": "users/default.png",
 	"textureSize": [30, 13],
 	"models": [
 		{
