@@ -39,5 +39,7 @@
 		"translator",
 		"turtle"
 	],
-	"defaultPlayerModel": "true"
+	//Load the default custom player model on players
+	//Set to "on" or "off"
+	"defaultPlayerModel": "on"
 }
