@@ -13,7 +13,7 @@
 	//Set to "true" or "false".
 	"notifications": "true",
 	//This is a list of default textures to use on players without a cape.
-	//The names must be existing textures from "https://github.com/ewanhowell5195/customOptiFineCapeServer/tree/main/default"
+	//The names must be existing textures from "https://github.com/ewanhowell5195/customOptiFineCapeServer/tree/main/capes/default"
 	//Set it to be empty to disable default capes
 	//Remove the "//" to enable the default capes
 	//The last enabled default capes should not have a "," at the end of the line
