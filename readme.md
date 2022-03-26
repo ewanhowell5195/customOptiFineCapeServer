@@ -3,7 +3,7 @@
 This is a program that lets you customise OptiFine capes and give yourself custom player models. 
 The program first loads capes from your local `capes` folder. If no cape is found, it checks for one in this github repository. If still no cape is found, it will check for an official optifine cape. Finally, if no OptiFine cape is found, it loads a default cape file (Currently the migration cape). 
 
-To use a custom cape, put your cape texture in the `capes` folder next to the program file, and rename it to match your Minecraft username. Please note that capes must also contain the elyta texture.
+To use a custom cape, put your cape texture in the `capes` folder next to the program file, and rename it to match your Minecraft username. Please note that capes must also contain the elytra texture.
 
 Playermodels are loaded from the `playermodels` folder next to the program folder. See [this folder](https://github.com/ewanhowell5195/customOptiFineCapeServer/tree/main/playermodels) for examples of correct formatting.
 
