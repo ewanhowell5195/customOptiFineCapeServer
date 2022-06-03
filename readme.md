@@ -1,3 +1,9 @@
+# Discontinued
+
+This project is discontinued, meaning I will no longer be updating/adding any capes/playermodels to the repository. Local mode will still work (loading from the capes/playermodels folder next to the program), and any capes/playermodels already in this repository will still work.
+
+If you wish for your cape/playermodel to be removed from this repository, please let me know by submitting an issue.
+
 # About
 
 This is a program that lets you customise OptiFine capes and give yourself custom player models. 
